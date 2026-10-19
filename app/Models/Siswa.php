@@ -1,0 +1,22 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Siswa extends Model
+{
+     protected $table = 'tb_siswa';
+
+     public $timestamps = false;
+
+     protected $fillable = [
+        'nis',
+        'nama',
+        'rombel',
+        'rayon',
+        'no_telp',
+        'alamat',
+     ];
+      
+}
